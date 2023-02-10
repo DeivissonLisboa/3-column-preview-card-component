@@ -161,3 +161,11 @@ body {
   border: 2px solid var(--clr-neutral-light-gray);
   margin-bottom: -4px;
 }
+
+@media (min-width: 65em) {
+  .container {
+    width: 65em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
