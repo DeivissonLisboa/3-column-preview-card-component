@@ -134,3 +134,30 @@ body {
 .card > * + * {
   margin-top: 2.5rem;
 }
+
+.card button {
+  border: none;
+  background-color: var(--clr-neutral-light-gray);
+  padding: 1rem 2rem;
+  border-radius: 5em;
+  font-family: inherit;
+}
+
+.card:nth-child(1) button {
+  color: var(--clr-primary-orange);
+}
+
+.card:nth-child(2) button {
+  color: var(--clr-primary-cyan);
+}
+
+.card:nth-child(3) button {
+  color: var(--clr-primary-dark-cyan);
+}
+
+.card button:hover {
+  color: var(--clr-neutral-light-gray);
+  background-color: transparent;
+  border: 2px solid var(--clr-neutral-light-gray);
+  margin-bottom: -4px;
+}
