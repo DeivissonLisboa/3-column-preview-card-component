@@ -72,3 +72,24 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --clr-primary-orange: hsl(31, 77%, 52%);
+  --clr-primary-cyan: hsl(184, 100%, 22%);
+  --clr-primary-dark-cyan: hsl(179, 100%, 13%);
+
+  /* (paragraphs) */
+  --clr-neutral-transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --clr-neutral-light-gray: hsl(0, 0%, 95%);
+
+  --fs-1: 15px;
+
+  --ff-1: "Lexend Deca", sans-serif;
+  --ff-2: "Big Shoulders Display", cursive;
+
+  --fw-1: 400;
+  --fw-2: 700;
+}
